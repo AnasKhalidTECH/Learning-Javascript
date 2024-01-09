@@ -30,4 +30,29 @@ const myFunction = function(){
     console.log("Hello World!");
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+// Two types of memories
+// Stack & Heap
+// Stack memories use's in (Primitive data types)
+// Heap memories use's in (Non-Primitive data types)
+// Example :-
+
+let myName = "Anas"
+let anotherName = myName
+anotherName = "Samad"
+
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+    email: "anas@gmail.com",
+    upi: "anas@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "anas@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
