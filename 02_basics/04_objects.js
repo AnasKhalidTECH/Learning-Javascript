@@ -46,10 +46,28 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+    coursename: "js in urdu",
+    courseprice: 999,
+    courseinstructer: "Anas"
+}
+
+const {courseinstructer: instructor} = course // Object destructuring
+
+console.log(instructor);
+
+// {
+//     "name": "Anas",
+//     "coursename": "js in urdu",
+//     "fees": "free"
+// }
+
