@@ -66,3 +66,17 @@ form.addEventListener('submit', function (e) {
   }
 });
 ```
+
+## project 3 solution
+
+```javascript
+const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock');
+
+// console.log(date.toLocaleTimeString());
+
+setInterval(() => {
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+```
